@@ -3,14 +3,7 @@
     <groupId>MercuryToursProject</groupId>
     <artifactId>MercuryToursProject</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>GitHub Cucumber Report Packages</name>
-            <url>https://github.com/manishbhatia7/cucumber-with-reports.git</url>
-        </repository>
-    </distributionManagement>
-    <build>
+     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
