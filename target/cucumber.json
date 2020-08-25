@@ -1,0 +1,117 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 115925300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login to application",
+        "description": "",
+        "id": "login-functionality;login-to-application;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 872982900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9019968000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user launches the application",
+            "match": {
+              "location": "login.user_launches_the_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 403671800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "enters username as \"admin@yourstore.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstore.com\"",
+                  "offset": 19
+                }
+              ],
+              "location": "login.enters_username_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204309300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 12
+                }
+              ],
+              "location": "login.password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5297617000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on submit button",
+            "match": {
+              "location": "login.click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27516300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login should be successful",
+            "match": {
+              "location": "login.login_should_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/features/login.feature",
+    "tags": []
+  }
+]

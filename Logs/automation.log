@@ -19,3 +19,62 @@
 2020-08-24 17:53:41,988  INFO [main] WebDriverManager:639 - Exporting webdriver.chrome.driver as C:\Users\manis\.cache\selenium\chromedriver\win32\84.0.4147.30\chromedriver.exe
 2020-08-24 17:53:50,173  INFO [main] Cucumber Project:36 - Application launched
 2020-08-24 17:53:50,406  INFO [main] Cucumber Project:42 - Email textbox cleared
+2020-08-25 12:27:30,417 DEBUG [main] ResolutionCache:187 - Resolution chrome=84 in cache (valid until 12:48:44 25/08/2020 IST)
+2020-08-25 12:27:30,429 DEBUG [main] ResolutionCache:187 - Resolution chrome84=84.0.4147.30 in cache (valid until 13:56:32 25/08/2020 IST)
+2020-08-25 12:27:30,432  INFO [main] WebDriverManager:587 - Using chromedriver 84.0.4147.30 (resolved driver for Chrome 84)
+2020-08-25 12:27:30,471 DEBUG [main] WebDriverManager:544 - Driver chromedriver 84.0.4147.30 found in cache
+2020-08-25 12:27:30,475  INFO [main] WebDriverManager:639 - Exporting webdriver.chrome.driver as C:\Users\manis\.cache\selenium\chromedriver\win32\84.0.4147.30\chromedriver.exe
+2020-08-25 12:27:39,018  INFO [main] Cucumber Project:36 - Application launched
+2020-08-25 12:27:39,222  INFO [main] Cucumber Project:42 - Email textbox cleared
+2020-08-25 12:28:58,638 DEBUG [main] ResolutionCache:187 - Resolution chrome=84 in cache (valid until 12:48:44 25/08/2020 IST)
+2020-08-25 12:28:58,646 DEBUG [main] ResolutionCache:187 - Resolution chrome84=84.0.4147.30 in cache (valid until 13:56:32 25/08/2020 IST)
+2020-08-25 12:28:58,648  INFO [main] WebDriverManager:587 - Using chromedriver 84.0.4147.30 (resolved driver for Chrome 84)
+2020-08-25 12:28:58,703 DEBUG [main] WebDriverManager:544 - Driver chromedriver 84.0.4147.30 found in cache
+2020-08-25 12:28:58,707  INFO [main] WebDriverManager:639 - Exporting webdriver.chrome.driver as C:\Users\manis\.cache\selenium\chromedriver\win32\84.0.4147.30\chromedriver.exe
+2020-08-25 12:29:07,359  INFO [main] Cucumber Project:36 - Application launched
+2020-08-25 12:29:07,587  INFO [main] Cucumber Project:42 - Email textbox cleared
+2020-08-25 12:43:05,407 DEBUG [main] ResolutionCache:187 - Resolution chrome=84 in cache (valid until 12:48:44 25/08/2020 IST)
+2020-08-25 12:43:05,417 DEBUG [main] ResolutionCache:187 - Resolution chrome84=84.0.4147.30 in cache (valid until 13:56:32 25/08/2020 IST)
+2020-08-25 12:43:05,419  INFO [main] WebDriverManager:587 - Using chromedriver 84.0.4147.30 (resolved driver for Chrome 84)
+2020-08-25 12:43:05,469 DEBUG [main] WebDriverManager:544 - Driver chromedriver 84.0.4147.30 found in cache
+2020-08-25 12:43:05,472  INFO [main] WebDriverManager:639 - Exporting webdriver.chrome.driver as C:\Users\manis\.cache\selenium\chromedriver\win32\84.0.4147.30\chromedriver.exe
+2020-08-25 12:43:14,704  INFO [main] Cucumber Project:36 - Application launched
+2020-08-25 12:43:14,910  INFO [main] Cucumber Project:42 - Email textbox cleared
+2020-08-25 12:50:49,496 DEBUG [main] ResolutionCache:162 - Removing resolution chrome=84 from cache (expired on Tue Aug 25 12:48:44 IST 2020)
+2020-08-25 12:50:49,525 DEBUG [main] Shell:54 - Running command on the shell: [wmic.exe, datafile, where, name='C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+2020-08-25 12:50:50,055 DEBUG [main] Shell:56 - Result: Version=84.0.4147.135
+2020-08-25 12:50:50,059 DEBUG [main] ResolutionCache:187 - Resolution chrome84=84.0.4147.30 in cache (valid until 13:56:32 25/08/2020 IST)
+2020-08-25 12:50:50,060  INFO [main] WebDriverManager:587 - Using chromedriver 84.0.4147.30 (resolved driver for Chrome 84)
+2020-08-25 12:50:50,067 DEBUG [main] ResolutionCache:126 - Storing resolution chrome=84 in cache (valid until 13:50:50 25/08/2020 IST)
+2020-08-25 12:50:50,114 DEBUG [main] WebDriverManager:544 - Driver chromedriver 84.0.4147.30 found in cache
+2020-08-25 12:50:50,117  INFO [main] WebDriverManager:639 - Exporting webdriver.chrome.driver as C:\Users\manis\.cache\selenium\chromedriver\win32\84.0.4147.30\chromedriver.exe
+2020-08-25 12:50:58,741  INFO [main] Cucumber Project:36 - Application launched
+2020-08-25 12:50:58,902  INFO [main] Cucumber Project:42 - Email textbox cleared
+2020-08-25 12:52:04,475 DEBUG [main] ResolutionCache:187 - Resolution chrome=84 in cache (valid until 13:50:50 25/08/2020 IST)
+2020-08-25 12:52:04,484 DEBUG [main] ResolutionCache:187 - Resolution chrome84=84.0.4147.30 in cache (valid until 13:56:32 25/08/2020 IST)
+2020-08-25 12:52:04,486  INFO [main] WebDriverManager:587 - Using chromedriver 84.0.4147.30 (resolved driver for Chrome 84)
+2020-08-25 12:52:04,556 DEBUG [main] WebDriverManager:544 - Driver chromedriver 84.0.4147.30 found in cache
+2020-08-25 12:52:04,566  INFO [main] WebDriverManager:639 - Exporting webdriver.chrome.driver as C:\Users\manis\.cache\selenium\chromedriver\win32\84.0.4147.30\chromedriver.exe
+2020-08-25 12:52:12,009  INFO [main] Cucumber Project:36 - Application launched
+2020-08-25 12:52:12,196  INFO [main] Cucumber Project:42 - Email textbox cleared
+2020-08-25 12:58:03,887 DEBUG [main] ResolutionCache:187 - Resolution chrome=84 in cache (valid until 13:50:50 25/08/2020 IST)
+2020-08-25 12:58:03,893 DEBUG [main] ResolutionCache:187 - Resolution chrome84=84.0.4147.30 in cache (valid until 13:56:32 25/08/2020 IST)
+2020-08-25 12:58:03,895  INFO [main] WebDriverManager:587 - Using chromedriver 84.0.4147.30 (resolved driver for Chrome 84)
+2020-08-25 12:58:03,928 DEBUG [main] WebDriverManager:544 - Driver chromedriver 84.0.4147.30 found in cache
+2020-08-25 12:58:03,931  INFO [main] WebDriverManager:639 - Exporting webdriver.chrome.driver as C:\Users\manis\.cache\selenium\chromedriver\win32\84.0.4147.30\chromedriver.exe
+2020-08-25 12:58:12,144  INFO [main] Cucumber Project:36 - Application launched
+2020-08-25 12:58:12,328  INFO [main] Cucumber Project:42 - Email textbox cleared
+2020-08-25 13:00:36,454 DEBUG [main] ResolutionCache:187 - Resolution chrome=84 in cache (valid until 13:50:50 25/08/2020 IST)
+2020-08-25 13:00:36,461 DEBUG [main] ResolutionCache:187 - Resolution chrome84=84.0.4147.30 in cache (valid until 13:56:32 25/08/2020 IST)
+2020-08-25 13:00:36,463  INFO [main] WebDriverManager:587 - Using chromedriver 84.0.4147.30 (resolved driver for Chrome 84)
+2020-08-25 13:00:36,524 DEBUG [main] WebDriverManager:544 - Driver chromedriver 84.0.4147.30 found in cache
+2020-08-25 13:00:36,532  INFO [main] WebDriverManager:639 - Exporting webdriver.chrome.driver as C:\Users\manis\.cache\selenium\chromedriver\win32\84.0.4147.30\chromedriver.exe
+2020-08-25 13:00:45,030  INFO [main] Cucumber Project:36 - Application launched
+2020-08-25 13:00:45,201  INFO [main] Cucumber Project:42 - Email textbox cleared
+2020-08-25 13:05:03,356 DEBUG [main] ResolutionCache:187 - Resolution chrome=84 in cache (valid until 13:50:50 25/08/2020 IST)
+2020-08-25 13:05:03,365 DEBUG [main] ResolutionCache:187 - Resolution chrome84=84.0.4147.30 in cache (valid until 13:56:32 25/08/2020 IST)
+2020-08-25 13:05:03,367  INFO [main] WebDriverManager:587 - Using chromedriver 84.0.4147.30 (resolved driver for Chrome 84)
+2020-08-25 13:05:03,397 DEBUG [main] WebDriverManager:544 - Driver chromedriver 84.0.4147.30 found in cache
+2020-08-25 13:05:03,399  INFO [main] WebDriverManager:639 - Exporting webdriver.chrome.driver as C:\Users\manis\.cache\selenium\chromedriver\win32\84.0.4147.30\chromedriver.exe
+2020-08-25 13:05:11,608  INFO [main] Cucumber Project:36 - Application launched
+2020-08-25 13:05:11,795  INFO [main] Cucumber Project:42 - Email textbox cleared

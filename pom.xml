@@ -3,6 +3,13 @@
     <groupId>MercuryToursProject</groupId>
     <artifactId>MercuryToursProject</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Cucumber Report Packages</name>
+            <url>https://github.com/manishbhatia7/cucumber-with-reports.git</url>
+        </repository>
+    </distributionManagement>
     <build>
         <plugins>
             <plugin>
@@ -15,6 +22,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M4</version>
                 </plugin>
+
             <plugin>
                 <groupId>net.masterthought</groupId>
                 <artifactId>maven-cucumber-reporting</artifactId>
@@ -34,6 +42,7 @@
 
 
                         </configuration>
+
                     </execution>
 
                 </executions>
@@ -93,6 +102,12 @@
             <artifactId>slf4j-simple</artifactId>
             <version>1.7.30</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-deploy-plugin</artifactId>
+            <version>3.0.0-M1</version>
+            <type>maven-plugin</type>
         </dependency>
 
     </dependencies>
