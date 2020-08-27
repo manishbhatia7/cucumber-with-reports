@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 115925300,
+              "duration": 89457200,
               "status": "passed"
             },
             "match": {
@@ -18,23 +18,12 @@
         "name": "Login to application",
         "description": "",
         "id": "login-functionality;login-to-application;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 872982900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "login.teardown()"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 9019968000,
+              "duration": 9789034800,
               "status": "passed"
             },
             "line": 3,
@@ -46,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 403671800,
+              "duration": 347500500,
               "status": "passed"
             },
             "line": 4,
@@ -64,7 +53,7 @@
           },
           {
             "result": {
-              "duration": 204309300,
+              "duration": 202955500,
               "status": "passed"
             },
             "line": 5,
@@ -82,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 5297617000,
+              "duration": 3929803100,
               "status": "passed"
             },
             "line": 6,
@@ -94,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 27516300,
+              "duration": 31239200,
               "status": "passed"
             },
             "line": 7,
@@ -111,7 +100,429 @@
     "description": "",
     "id": "login-functionality",
     "keyword": "Feature",
-    "uri": "src/test/features/login.feature",
+    "uri": "src/test/features/001login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Login to application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7049300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Navigate to dashboard and click on add customer button",
+        "description": "",
+        "id": "add-a-customer;navigate-to-dashboard-and-click-on-add-customer-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9050000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have already logged into application",
+            "match": {
+              "location": "dashboard.i_have_already_logged_into_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 352452500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on Parent customer link",
+            "match": {
+              "location": "dashboard.i_click_on_Parent_customer_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2433180100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on child customer link",
+            "match": {
+              "location": "dashboard.i_click_on_child_customer_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113444700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Add Customer button should be visible",
+            "match": {
+              "location": "dashboard.add_Customer_button_should_be_visible()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Login to application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6412900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.setup()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Add details in customer",
+        "description": "",
+        "id": "add-a-customer;add-details-in-customer;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1509331500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on Add new customer button",
+            "match": {
+              "location": "addCustomer.i_click_on_Add_new_customer_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 274481200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter Email as \"ManSinghvi124@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ManSinghvi124@gmail.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "addCustomer.i_enter_Email_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 157340500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter Password as \"manu123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manu123\"",
+                  "offset": 20
+                }
+              ],
+              "location": "addCustomer.i_enter_Password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161965900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter FirstName as \"Manu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manu\"",
+                  "offset": 21
+                }
+              ],
+              "location": "addCustomer.i_enter_FirstName_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248016400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter LastName as \"Singhvi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Singhvi\"",
+                  "offset": 20
+                }
+              ],
+              "location": "addCustomer.i_enter_LastName_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122032700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select Gender",
+            "match": {
+              "location": "addCustomer.i_select_Gender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163973200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter  DOB as \"06/13/1970\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"06/13/1970\"",
+                  "offset": 16
+                }
+              ],
+              "location": "addCustomer.i_enter_DOB_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2082243300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on save",
+            "match": {
+              "location": "addCustomer.i_click_on_save()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92331300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "New customer should be added",
+            "match": {
+              "location": "addCustomer.new_customer_should_be_added()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Login to application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7593400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.setup()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Add details in customer",
+        "description": "",
+        "id": "add-a-customer;add-details-in-customer;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1328588600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on Add new customer button",
+            "match": {
+              "location": "addCustomer.i_click_on_Add_new_customer_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 219110000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter Email as \"rkapoor124@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"rkapoor124@gmail.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "addCustomer.i_enter_Email_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152992700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter Password as \"rkapoor\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"rkapoor\"",
+                  "offset": 20
+                }
+              ],
+              "location": "addCustomer.i_enter_Password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 186501800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter FirstName as \"Raj\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Raj\"",
+                  "offset": 21
+                }
+              ],
+              "location": "addCustomer.i_enter_FirstName_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140554100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter LastName as \"kapoor\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kapoor\"",
+                  "offset": 20
+                }
+              ],
+              "location": "addCustomer.i_enter_LastName_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94008700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select Gender",
+            "match": {
+              "location": "addCustomer.i_select_Gender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141794100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter  DOB as \"12/14/1924\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12/14/1924\"",
+                  "offset": 16
+                }
+              ],
+              "location": "addCustomer.i_enter_DOB_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2040267200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on save",
+            "match": {
+              "location": "addCustomer.i_click_on_save()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95917500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "New customer should be added",
+            "match": {
+              "location": "addCustomer.new_customer_should_be_added()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add a customer",
+    "description": "",
+    "id": "add-a-customer",
+    "keyword": "Feature",
+    "uri": "src/test/features/Customer_Management.feature",
     "tags": []
   }
 ]

@@ -6,10 +6,11 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
-import org.openqa.selenium.By;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import pageobjects.loginPage;
 
 
 public class login extends base {
@@ -20,11 +21,7 @@ public class login extends base {
         PropertyConfigurator.configure("Log4j.properties");
         logger.setLevel(Level.DEBUG);
     }
-    @After
-    public void teardown()
-    {
-        driver.quit();
-    }
+
 
 
 
@@ -33,25 +30,25 @@ public class login extends base {
 
         initaliseBrowser("Chrome");
         driver.get("https://admin-demo.nopcommerce.com/login?ReturnUrl=%2FAdmin%2FCustomer%2FList");
+        lp=new loginPage(driver);
         logger.info("Application launched");
     }
 
     @And("enters username as {string}")
     public void enters_username_as(String username) {
-        driver.findElement(By.id("Email")).clear();
-        logger.info("Email textbox cleared");
-        driver.findElement(By.id("Email")).sendKeys(username);
+        logger.info("Email textbox cleared and entered");
+        lp.enterUserName(username);
     }
 
     @And("password as {string}")
     public void password_as(String password) {
-        driver.findElement(By.id("Password")).clear();
-        driver.findElement(By.id("Password")).sendKeys(password);
+        lp.enterPassword(password);
     }
 
     @And("click on submit button")
-    public void click_on_submit_button() {
-        driver.findElement(By.xpath("//input[@value='Log in']")).click();
+    public void click_on_submit_button()
+    {
+       dp=lp.submitCredentials();
     }
 
     @Then("login should be successful")

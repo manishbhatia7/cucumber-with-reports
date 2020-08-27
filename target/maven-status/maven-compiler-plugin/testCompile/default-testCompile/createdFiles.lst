@@ -1,3 +1,9 @@
-bindings\base.class
+bindings\addCustomer.class
 bindings\login.class
+pageobjects\dashboardPage.class
+pageobjects\loginPage.class
+pageobjects\addCustomerPage.class
+pageobjects\deleteCustomerPage.class
+bindings\dashboard.class
+bindings\base.class
 runner\TestRunner.class
