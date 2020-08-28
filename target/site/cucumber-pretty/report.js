@@ -108,8 +108,8 @@ formatter.result({
 });
 formatter.uri("src/test/features/Customer_Management.feature");
 formatter.feature({
-  "name": "Add a customer",
-  "description": "",
+  "name": "Customer Management",
+  "description": "  Customer Management includes adding a customer,searching a customer for deletion and then deleting the customer",
   "keyword": "Feature"
 });
 formatter.background({
@@ -223,7 +223,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "ManSinghvi124@gmail.com",
+        "ManSinghvi132@gmail.com",
         "manu123",
         "Manu",
         "Singhvi",
@@ -233,7 +233,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "rkapoor124@gmail.com",
+        "rkapoor132@gmail.com",
         "rkapoor",
         "Raj",
         "kapoor",
@@ -267,7 +267,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter Email as \"ManSinghvi124@gmail.com\"",
+  "name": "I enter Email as \"ManSinghvi132@gmail.com\"",
   "keyword": "And "
 });
 formatter.match({
@@ -370,7 +370,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter Email as \"rkapoor124@gmail.com\"",
+  "name": "I enter Email as \"rkapoor132@gmail.com\"",
   "keyword": "And "
 });
 formatter.match({
@@ -445,6 +445,280 @@ formatter.step({
 });
 formatter.match({
   "location": "addCustomer.new_customer_should_be_added()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "name": "Delete Details in customer",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "I type \"\u003cemail\u003e\" in Email textbox",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "click on search button",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I should be able to click on edit button",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "click on Delete button",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "on alert confirm the deletion",
+  "keyword": "And "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "email"
+      ]
+    },
+    {
+      "cells": [
+        "ManSinghvi132@gmail.com"
+      ]
+    },
+    {
+      "cells": [
+        "rkapoor132@gmail.com"
+      ]
+    }
+  ]
+});
+formatter.background({
+  "name": "Login to application",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Delete Details in customer",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "I type \"ManSinghvi132@gmail.com\" in Email textbox",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "dashboard.i_type_in_Email_textbox(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click on search button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "dashboard.click_on_search_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be able to click on edit button",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "dashboard.i_should_be_able_to_click_on_edit_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click on Delete button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "deleteCustomer.click_on_Delete_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "on alert confirm the deletion",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "deleteCustomer.on_alert_confirm_the_deletion()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.background({
+  "name": "Login to application",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Delete Details in customer",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "I type \"rkapoor132@gmail.com\" in Email textbox",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "dashboard.i_type_in_Email_textbox(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click on search button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "dashboard.click_on_search_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be able to click on edit button",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "dashboard.i_should_be_able_to_click_on_edit_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click on Delete button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "deleteCustomer.click_on_Delete_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "on alert confirm the deletion",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "deleteCustomer.on_alert_confirm_the_deletion()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "name": "Assert That Delete is successful",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "I type \"\u003cemail\u003e\" second time in Email textbox",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "record should be deleted",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "email"
+      ]
+    },
+    {
+      "cells": [
+        "ManSinghvi132@gmail.com"
+      ]
+    },
+    {
+      "cells": [
+        "rkapoor132@gmail.com"
+      ]
+    }
+  ]
+});
+formatter.background({
+  "name": "Login to application",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Assert That Delete is successful",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "I type \"ManSinghvi132@gmail.com\" second time in Email textbox",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "dashboard.i_type_something_second_time_in_email_textbox(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "record should be deleted",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "dashboard.record_should_be_deleted()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.background({
+  "name": "Login to application",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Assert That Delete is successful",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "I type \"rkapoor132@gmail.com\" second time in Email textbox",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "dashboard.i_type_something_second_time_in_email_textbox(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "record should be deleted",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "dashboard.record_should_be_deleted()"
 });
 formatter.result({
   "status": "passed"

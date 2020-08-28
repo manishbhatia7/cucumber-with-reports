@@ -1,4 +1,5 @@
-Feature: Add a customer
+Feature: Customer Management
+  Customer Management includes adding a customer,searching a customer for deletion and then deleting the customer
   Background: Login to application
   Scenario:Navigate to dashboard and click on add customer button
     Given I have already logged into application
@@ -20,5 +21,27 @@ Feature: Add a customer
 
     Examples:
       | email                     |  password         | firstname           |      lastname     |     dob       |   newsletter      |
-      |ManSinghvi125@gmail.com    |    manu123         | Manu               |      Singhvi      |   06/13/1970 |   Your store name |
-      |rkapoor125@gmail.com       |    rkapoor         | Raj                    |      kapoor       |   12/14/1924     |   Your store name |
+      |ManSinghvi133@gmail.com    |    manu123         | Manu               |      Singhvi      |   06/13/1970 |   Your store name |
+      |rkapoor133@gmail.com       |    rkapoor         | Raj                    |      kapoor       |   12/14/1924     |   Your store name |
+
+  Scenario Outline: Delete Details in customer
+    When I type "<email>" in Email textbox
+    And  click on search button
+    Then I should be able to click on edit button
+    And click on Delete button
+    And on alert confirm the deletion
+
+    Examples:
+      | email                  |
+      |ManSinghvi133@gmail.com |
+      |rkapoor133@gmail.com    |
+
+  Scenario Outline: Assert That Delete is successful
+    And I type "<email>" second time in Email textbox
+    Then record should be deleted
+
+    Examples:
+
+      | email                  |
+      |ManSinghvi133@gmail.com |
+      |rkapoor133@gmail.com    |

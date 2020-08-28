@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 89457200,
+              "duration": 130902900,
               "status": "passed"
             },
             "match": {
@@ -23,7 +23,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9789034800,
+              "duration": 10594099900,
               "status": "passed"
             },
             "line": 3,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 347500500,
+              "duration": 340639400,
               "status": "passed"
             },
             "line": 4,
@@ -53,7 +53,7 @@
           },
           {
             "result": {
-              "duration": 202955500,
+              "duration": 303472700,
               "status": "passed"
             },
             "line": 5,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 3929803100,
+              "duration": 4852735700,
               "status": "passed"
             },
             "line": 6,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 31239200,
+              "duration": 31495900,
               "status": "passed"
             },
             "line": 7,
@@ -107,7 +107,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 2,
+        "line": 3,
         "name": "Login to application",
         "description": "",
         "type": "background",
@@ -118,7 +118,7 @@
         "before": [
           {
             "result": {
-              "duration": 7049300,
+              "duration": 5095800,
               "status": "passed"
             },
             "match": {
@@ -126,19 +126,19 @@
             }
           }
         ],
-        "line": 3,
+        "line": 4,
         "name": "Navigate to dashboard and click on add customer button",
         "description": "",
-        "id": "add-a-customer;navigate-to-dashboard-and-click-on-add-customer-button",
+        "id": "customer-management;navigate-to-dashboard-and-click-on-add-customer-button",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 9050000,
+              "duration": 4501600,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "I have already logged into application",
             "match": {
               "location": "dashboard.i_have_already_logged_into_application()"
@@ -147,10 +147,10 @@
           },
           {
             "result": {
-              "duration": 352452500,
+              "duration": 208952000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I click on Parent customer link",
             "match": {
               "location": "dashboard.i_click_on_Parent_customer_link()"
@@ -159,10 +159,10 @@
           },
           {
             "result": {
-              "duration": 2433180100,
+              "duration": 2029112800,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I click on child customer link",
             "match": {
               "location": "dashboard.i_click_on_child_customer_link()"
@@ -171,10 +171,10 @@
           },
           {
             "result": {
-              "duration": 113444700,
+              "duration": 164494300,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "Add Customer button should be visible",
             "match": {
               "location": "dashboard.add_Customer_button_should_be_visible()"
@@ -184,7 +184,7 @@
         ]
       },
       {
-        "line": 2,
+        "line": 3,
         "name": "Login to application",
         "description": "",
         "type": "background",
@@ -195,7 +195,7 @@
         "before": [
           {
             "result": {
-              "duration": 6412900,
+              "duration": 5773700,
               "status": "passed"
             },
             "match": {
@@ -203,19 +203,19 @@
             }
           }
         ],
-        "line": 23,
+        "line": 24,
         "name": "Add details in customer",
         "description": "",
-        "id": "add-a-customer;add-details-in-customer;;2",
+        "id": "customer-management;add-details-in-customer;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 1509331500,
+              "duration": 1814158900,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "I click on Add new customer button",
             "match": {
               "location": "addCustomer.i_click_on_Add_new_customer_button()"
@@ -224,15 +224,15 @@
           },
           {
             "result": {
-              "duration": 274481200,
+              "duration": 282860900,
               "status": "passed"
             },
-            "line": 12,
-            "name": "I enter Email as \"ManSinghvi124@gmail.com\"",
+            "line": 13,
+            "name": "I enter Email as \"ManSinghvi132@gmail.com\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"ManSinghvi124@gmail.com\"",
+                  "val": "\"ManSinghvi132@gmail.com\"",
                   "offset": 17
                 }
               ],
@@ -242,10 +242,10 @@
           },
           {
             "result": {
-              "duration": 157340500,
+              "duration": 175596300,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "I enter Password as \"manu123\"",
             "match": {
               "arguments": [
@@ -260,10 +260,10 @@
           },
           {
             "result": {
-              "duration": 161965900,
+              "duration": 160613500,
               "status": "passed"
             },
-            "line": 14,
+            "line": 15,
             "name": "I enter FirstName as \"Manu\"",
             "match": {
               "arguments": [
@@ -278,10 +278,10 @@
           },
           {
             "result": {
-              "duration": 248016400,
+              "duration": 151177300,
               "status": "passed"
             },
-            "line": 15,
+            "line": 16,
             "name": "I enter LastName as \"Singhvi\"",
             "match": {
               "arguments": [
@@ -296,10 +296,10 @@
           },
           {
             "result": {
-              "duration": 122032700,
+              "duration": 114374800,
               "status": "passed"
             },
-            "line": 16,
+            "line": 17,
             "name": "I select Gender",
             "match": {
               "location": "addCustomer.i_select_Gender()"
@@ -308,10 +308,10 @@
           },
           {
             "result": {
-              "duration": 163973200,
+              "duration": 178718600,
               "status": "passed"
             },
-            "line": 17,
+            "line": 18,
             "name": "I enter  DOB as \"06/13/1970\"",
             "match": {
               "arguments": [
@@ -326,10 +326,10 @@
           },
           {
             "result": {
-              "duration": 2082243300,
+              "duration": 2317726500,
               "status": "passed"
             },
-            "line": 18,
+            "line": 19,
             "name": "I click on save",
             "match": {
               "location": "addCustomer.i_click_on_save()"
@@ -338,10 +338,10 @@
           },
           {
             "result": {
-              "duration": 92331300,
+              "duration": 110642800,
               "status": "passed"
             },
-            "line": 19,
+            "line": 20,
             "name": "New customer should be added",
             "match": {
               "location": "addCustomer.new_customer_should_be_added()"
@@ -351,7 +351,7 @@
         ]
       },
       {
-        "line": 2,
+        "line": 3,
         "name": "Login to application",
         "description": "",
         "type": "background",
@@ -362,7 +362,7 @@
         "before": [
           {
             "result": {
-              "duration": 7593400,
+              "duration": 5204900,
               "status": "passed"
             },
             "match": {
@@ -370,19 +370,19 @@
             }
           }
         ],
-        "line": 24,
+        "line": 25,
         "name": "Add details in customer",
         "description": "",
-        "id": "add-a-customer;add-details-in-customer;;3",
+        "id": "customer-management;add-details-in-customer;;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 1328588600,
+              "duration": 2123247900,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "I click on Add new customer button",
             "match": {
               "location": "addCustomer.i_click_on_Add_new_customer_button()"
@@ -391,15 +391,15 @@
           },
           {
             "result": {
-              "duration": 219110000,
+              "duration": 353877400,
               "status": "passed"
             },
-            "line": 12,
-            "name": "I enter Email as \"rkapoor124@gmail.com\"",
+            "line": 13,
+            "name": "I enter Email as \"rkapoor132@gmail.com\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"rkapoor124@gmail.com\"",
+                  "val": "\"rkapoor132@gmail.com\"",
                   "offset": 17
                 }
               ],
@@ -409,10 +409,10 @@
           },
           {
             "result": {
-              "duration": 152992700,
+              "duration": 222412600,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "I enter Password as \"rkapoor\"",
             "match": {
               "arguments": [
@@ -427,10 +427,10 @@
           },
           {
             "result": {
-              "duration": 186501800,
+              "duration": 180756300,
               "status": "passed"
             },
-            "line": 14,
+            "line": 15,
             "name": "I enter FirstName as \"Raj\"",
             "match": {
               "arguments": [
@@ -445,10 +445,10 @@
           },
           {
             "result": {
-              "duration": 140554100,
+              "duration": 190889100,
               "status": "passed"
             },
-            "line": 15,
+            "line": 16,
             "name": "I enter LastName as \"kapoor\"",
             "match": {
               "arguments": [
@@ -463,10 +463,10 @@
           },
           {
             "result": {
-              "duration": 94008700,
+              "duration": 128483400,
               "status": "passed"
             },
-            "line": 16,
+            "line": 17,
             "name": "I select Gender",
             "match": {
               "location": "addCustomer.i_select_Gender()"
@@ -475,10 +475,10 @@
           },
           {
             "result": {
-              "duration": 141794100,
+              "duration": 154815000,
               "status": "passed"
             },
-            "line": 17,
+            "line": 18,
             "name": "I enter  DOB as \"12/14/1924\"",
             "match": {
               "arguments": [
@@ -493,10 +493,10 @@
           },
           {
             "result": {
-              "duration": 2040267200,
+              "duration": 4223972100,
               "status": "passed"
             },
-            "line": 18,
+            "line": 19,
             "name": "I click on save",
             "match": {
               "location": "addCustomer.i_click_on_save()"
@@ -505,10 +505,10 @@
           },
           {
             "result": {
-              "duration": 95917500,
+              "duration": 156412000,
               "status": "passed"
             },
-            "line": 19,
+            "line": 20,
             "name": "New customer should be added",
             "match": {
               "location": "addCustomer.new_customer_should_be_added()"
@@ -516,11 +516,319 @@
             "keyword": "Then "
           }
         ]
+      },
+      {
+        "line": 3,
+        "name": "Login to application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4751200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.setup()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Delete Details in customer",
+        "description": "",
+        "id": "customer-management;delete-details-in-customer;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 432961300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I type \"ManSinghvi132@gmail.com\" in Email textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ManSinghvi132@gmail.com\"",
+                  "offset": 7
+                }
+              ],
+              "location": "dashboard.i_type_in_Email_textbox(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 201624200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "click on search button",
+            "match": {
+              "location": "dashboard.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4473751500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I should be able to click on edit button",
+            "match": {
+              "location": "dashboard.i_should_be_able_to_click_on_edit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 192077000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "click on Delete button",
+            "match": {
+              "location": "deleteCustomer.click_on_Delete_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3172555000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "on alert confirm the deletion",
+            "match": {
+              "location": "deleteCustomer.on_alert_confirm_the_deletion()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login to application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8344900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.setup()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Delete Details in customer",
+        "description": "",
+        "id": "customer-management;delete-details-in-customer;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 423146200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I type \"rkapoor132@gmail.com\" in Email textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"rkapoor132@gmail.com\"",
+                  "offset": 7
+                }
+              ],
+              "location": "dashboard.i_type_in_Email_textbox(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 174268600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "click on search button",
+            "match": {
+              "location": "dashboard.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2775105000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I should be able to click on edit button",
+            "match": {
+              "location": "dashboard.i_should_be_able_to_click_on_edit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 364880000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "click on Delete button",
+            "match": {
+              "location": "deleteCustomer.click_on_Delete_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3146730600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "on alert confirm the deletion",
+            "match": {
+              "location": "deleteCustomer.on_alert_confirm_the_deletion()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login to application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4179600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.setup()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Assert That Delete is successful",
+        "description": "",
+        "id": "customer-management;assert-that-delete-is-successful;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5640232700,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I type \"ManSinghvi132@gmail.com\" second time in Email textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ManSinghvi132@gmail.com",
+                  "offset": 8
+                }
+              ],
+              "location": "dashboard.i_type_something_second_time_in_email_textbox(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1331583400,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "record should be deleted",
+            "match": {
+              "location": "dashboard.record_should_be_deleted()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login to application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6039200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.setup()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "Assert That Delete is successful",
+        "description": "",
+        "id": "customer-management;assert-that-delete-is-successful;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5428141700,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I type \"rkapoor132@gmail.com\" second time in Email textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rkapoor132@gmail.com",
+                  "offset": 8
+                }
+              ],
+              "location": "dashboard.i_type_something_second_time_in_email_textbox(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 195714700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "record should be deleted",
+            "match": {
+              "location": "dashboard.record_should_be_deleted()"
+            },
+            "keyword": "Then "
+          }
+        ]
       }
     ],
-    "name": "Add a customer",
-    "description": "",
-    "id": "add-a-customer",
+    "name": "Customer Management",
+    "description": "  Customer Management includes adding a customer,searching a customer for deletion and then deleting the customer",
+    "id": "customer-management",
     "keyword": "Feature",
     "uri": "src/test/features/Customer_Management.feature",
     "tags": []

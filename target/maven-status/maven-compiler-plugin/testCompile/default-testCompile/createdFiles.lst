@@ -2,6 +2,7 @@ bindings\addCustomer.class
 bindings\login.class
 pageobjects\dashboardPage.class
 pageobjects\loginPage.class
+bindings\deleteCustomer.class
 pageobjects\addCustomerPage.class
 pageobjects\deleteCustomerPage.class
 bindings\dashboard.class
